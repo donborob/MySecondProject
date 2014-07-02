@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23115EB919641643006CDACB /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23115EB819641643006CDACB /* SecondTableViewController.m */; };
+		23115ECA19642151006CDACB /* 0 in Resources */ = {isa = PBXBuildFile; fileRef = 23115EC619642151006CDACB /* 0 */; };
+		23115ECB19642151006CDACB /* i1 in Resources */ = {isa = PBXBuildFile; fileRef = 23115EC719642151006CDACB /* i1 */; };
+		23115ECF19642728006CDACB /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = 23115ECE19642728006CDACB /* 1 */; };
+		23115ED1196427CD006CDACB /* i0 in Resources */ = {isa = PBXBuildFile; fileRef = 23115ED0196427CD006CDACB /* i0 */; };
+		23115ED419642ECE006CDACB /* Tril.m in Sources */ = {isa = PBXBuildFile; fileRef = 23115ED319642ECE006CDACB /* Tril.m */; };
+		23115ED719642FAB006CDACB /* Com.m in Sources */ = {isa = PBXBuildFile; fileRef = 23115ED619642FAB006CDACB /* Com.m */; };
 		233FF4061962C94500FA88DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233FF4051962C94500FA88DC /* Foundation.framework */; };
 		233FF4081962C94500FA88DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233FF4071962C94500FA88DC /* CoreGraphics.framework */; };
 		233FF40A1962C94500FA88DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233FF4091962C94500FA88DC /* UIKit.framework */; };
@@ -22,6 +29,7 @@
 		233FF42A1962C94600FA88DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233FF4091962C94500FA88DC /* UIKit.framework */; };
 		233FF4321962C94600FA88DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 233FF4301962C94600FA88DC /* InfoPlist.strings */; };
 		233FF4341962C94600FA88DC /* MyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 233FF4331962C94600FA88DC /* MyProjectTests.m */; };
+		233FF43F1962CB5D00FA88DC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233FF43E1962CB5D00FA88DC /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23115EB719641643006CDACB /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		23115EB819641643006CDACB /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		23115EC619642151006CDACB /* 0 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 0; path = ../../../Downloads/0; sourceTree = "<group>"; };
+		23115EC719642151006CDACB /* i1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = i1; path = ../../../Downloads/i1; sourceTree = "<group>"; };
+		23115ECE19642728006CDACB /* 1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1; path = ../../../Downloads/1; sourceTree = "<group>"; };
+		23115ED0196427CD006CDACB /* i0 */ = {isa = PBXFileReference; lastKnownFileType = file; name = i0; path = ../../../Downloads/i0; sourceTree = "<group>"; };
+		23115ED219642ECE006CDACB /* Tril.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tril.h; sourceTree = "<group>"; };
+		23115ED319642ECE006CDACB /* Tril.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tril.m; sourceTree = "<group>"; };
+		23115ED519642FAB006CDACB /* Com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Com.h; sourceTree = "<group>"; };
+		23115ED619642FAB006CDACB /* Com.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Com.m; sourceTree = "<group>"; };
 		233FF4021962C94500FA88DC /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233FF4051962C94500FA88DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		233FF4071962C94500FA88DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +73,8 @@
 		233FF42F1962C94600FA88DC /* MyProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyProjectTests-Info.plist"; sourceTree = "<group>"; };
 		233FF4311962C94600FA88DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		233FF4331962C94600FA88DC /* MyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProjectTests.m; sourceTree = "<group>"; };
+		233FF43D1962CB5D00FA88DC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		233FF43E1962CB5D00FA88DC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +134,26 @@
 		233FF40B1962C94500FA88DC /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				23115ED0196427CD006CDACB /* i0 */,
+				23115ECE19642728006CDACB /* 1 */,
+				23115EC619642151006CDACB /* 0 */,
+				23115EC719642151006CDACB /* i1 */,
 				233FF4141962C94500FA88DC /* AppDelegate.h */,
 				233FF4151962C94500FA88DC /* AppDelegate.m */,
 				233FF4171962C94500FA88DC /* Main_iPhone.storyboard */,
+				233FF43D1962CB5D00FA88DC /* TableViewController.h */,
+				233FF43E1962CB5D00FA88DC /* TableViewController.m */,
 				233FF41A1962C94500FA88DC /* Main_iPad.storyboard */,
 				233FF41D1962C94500FA88DC /* ViewController.h */,
 				233FF41E1962C94500FA88DC /* ViewController.m */,
 				233FF4201962C94500FA88DC /* Images.xcassets */,
 				233FF40C1962C94500FA88DC /* Supporting Files */,
+				23115EB719641643006CDACB /* SecondTableViewController.h */,
+				23115EB819641643006CDACB /* SecondTableViewController.m */,
+				23115ED219642ECE006CDACB /* Tril.h */,
+				23115ED319642ECE006CDACB /* Tril.m */,
+				23115ED519642FAB006CDACB /* Com.h */,
+				23115ED619642FAB006CDACB /* Com.m */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -231,9 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23115ECA19642151006CDACB /* 0 in Resources */,
 				233FF41C1962C94500FA88DC /* Main_iPad.storyboard in Resources */,
 				233FF4211962C94500FA88DC /* Images.xcassets in Resources */,
+				23115ED1196427CD006CDACB /* i0 in Resources */,
 				233FF4191962C94500FA88DC /* Main_iPhone.storyboard in Resources */,
+				23115ECB19642151006CDACB /* i1 in Resources */,
+				23115ECF19642728006CDACB /* 1 in Resources */,
 				233FF4101962C94500FA88DC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23115ED419642ECE006CDACB /* Tril.m in Sources */,
 				233FF41F1962C94500FA88DC /* ViewController.m in Sources */,
+				23115ED719642FAB006CDACB /* Com.m in Sources */,
 				233FF4161962C94500FA88DC /* AppDelegate.m in Sources */,
 				233FF4121962C94500FA88DC /* main.m in Sources */,
+				233FF43F1962CB5D00FA88DC /* TableViewController.m in Sources */,
+				23115EB919641643006CDACB /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
 				INFOPLIST_FILE = "MyProject/MyProject-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +447,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
 				INFOPLIST_FILE = "MyProject/MyProject-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +512,7 @@
 				233FF4391962C94600FA88DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		233FF43A1962C94600FA88DC /* Build configuration list for PBXNativeTarget "MyProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +521,7 @@
 				233FF43C1962C94600FA88DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
